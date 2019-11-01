@@ -4,13 +4,14 @@
 
         <div class="col   my-head__wrapper">
 
-            <a class="  mt-1 mb-1  my-head__logoDepartment"  href="index.php">
+            <a class="  mt-1 mb-1  my-head__logoDepartment" href="index.php">
                 <img src="img/departmentMTE.png" alt="" class="my-head__logoDepartmentImg">
             </a>
 
             <a class="  mt-2 mb-1 my-head__logoNure" href="http://nure.ua/">
                 <img src="img/logo_nure.png" width="26" height="26" class=" my-img-logo-nure   mb-2" alt="">
-                <span class="  h6 font-weight-light     my-head-text-nure"> Харківський національний університет радіоелектроніки </span>
+                <span class="  h6 font-weight-light     my-head-text-nure"> Харківський національний університет
+                    радіоелектроніки </span>
             </a>
 
             <div class="  my-head__forEquilibrium"> </div>
@@ -29,24 +30,81 @@
     </div>
 
 </div>
-
 <div class="container-fluid mt-2">
     <div class="row">
         <div class="col">
             <nav class="nav  ">
-                <a class="nav-link" href="inf.php"><span class="my-nav h6 font-weight-bold"
-                                                         id="inf">Загальна інформація</span></a>
-                <a class="nav-link " href="history.php"><span class="my-nav h6 font-weight-bold"
-                                                              id="history">Історія</span></a>
-                <a class="nav-link " href="index.php"><span class="my-nav h6 font-weight-bold " id="applicants"> Абітурієнтам</span></a>
-                <a class="nav-link " href="students.php"><span class="my-nav h6 font-weight-bold" id="students">Студентам</span></a>
-                <a class="nav-link " href="teachers.php"><span class="my-nav h6 font-weight-bold" id="teachers">Викладачі</span></a>
-                <a class="nav-link " href="lab.php"><span class="my-nav h6 font-weight-bold" id="lab">Лабораторії</span></a>
-                <a class="nav-link " href="news.php"><span class="my-nav h6 font-weight-bold"
-                                                           id="news">Новини</span></a>
+                <ul class="nav nav-pills">
+                    <li class="nav-item  dropdown">
+                        <a class="nav-link  nav-link dropdown-toggle bg-white" data-toggle="dropdown" href="#"
+                            role="button" aria-haspopup="true" aria-expanded="false">
+                            <span class="my-nav h6 font-weight-bold" id="scientific">Загальна інформація</span></a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item " href="info-about.php">Про кафедру</a>
+                            <a class="dropdown-item " href="info-history.php">Історія</a>
+                            <a class="dropdown-item " href="info-teachers.php">Викладачі</a>
+                            <a class="dropdown-item disabled" href="">Міжнародна діяльність</a>
+                            <a class="dropdown-item disabled" href="">Громадська діяльність</a>
+                            <a class="dropdown-item disabled" href="">Партнери</a>
+                            <a class="dropdown-item disabled" href="#">Випускники</a>
+                            <a class="dropdown-item disabled" href="#">Працевлаштування</a>
+                            <a class="dropdown-item disabled" href="">For foreigners</a>
+                        </div>
+                    </li>
+                    <li class="nav-item  dropdown">
+                        <a class="nav-link  nav-link dropdown-toggle bg-white" data-toggle="dropdown" href="#"
+                            role="button" aria-haspopup="true" aria-expanded="false">
+                            <span class="my-nav h6 font-weight-bold" id="scientific">Наукова діяльність</span></a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item " href="scientific-approaches.php">Напрями наукових досліджень</a>
+                            <a class="dropdown-item " href="scientific-monographs.php">Монографії</a>
+                            <a class="dropdown-item " href="scientific-research.php">НДР</a>
+                            <a class="dropdown-item " href="scientific-patents.php">Патенти кафедри</a>
+                            <a class="dropdown-item " href="scientific-conferences.php">Участь у конференціях</a>
+                            <a class="dropdown-item disabled" href="#">Аспіранти</a>
+                            <a class="dropdown-item disabled" href="#">Докторанти</a>
+                            <a class="dropdown-item" href="scientific-competitions.php">Олімпіади та конкурси</a>
+                        </div>
+                    </li>
 
-                <!--   <a class="nav-link ml-auto " href="postgraduate.php"><span class="my-nav h6 font-weight-bold" id="postgraduate">рус </span></a>
-                   <a class="nav-link  " href="postgraduate.php"><span class="my-nav h6 font-weight-bold" id="postgraduate">eng</span></a>-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link bg-white nav-link dropdown-toggle  " data-toggle="dropdown" href="#"
+                            role="button" aria-haspopup="true" aria-expanded="false" href="studying.php"><span
+                                class="my-nav h6 font-weight-bold " id="studying">
+                                Навчальный процес</span></a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item disabled" href="#">Дисципліни</a>
+                            <a class="dropdown-item" href="studying-tutorials.php">Підручники та навчальні посібники</a>
+                            <a class="dropdown-item" href="studying-lab.php">Навчальні лабораторії</a>
+                            <a class="dropdown-item disabled" href="#">Анотації</a>
+                            <a class="dropdown-item " href="studying-diploma.php">Дипломне проектування</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.php"><span class="my-nav h6 font-weight-bold " id="applicants">
+                                Абітурієнтам</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="students.php"><span class="my-nav h6 font-weight-bold"
+                                id="students">Студентам</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="news.php"><span class="my-nav h6 font-weight-bold"
+                                id="news">Новини</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link bg-white nav-link dropdown-toggle  " data-toggle="dropdown" href="#"
+                            role="button" aria-haspopup="true" aria-expanded="false" href="studying.php"><span
+                                class="my-nav h6 font-weight-bold " id="studying">
+                                Студентське життя</span></a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item disabled" href="#">Наукові досягнення</a>
+                            <a class="dropdown-item  disabled" href="">Спортивне життя</a>
+                            <a class="dropdown-item disabled" href="">Навчальні лабораторії</a>
+                            <a class="dropdown-item disabled" href="#">Культура та мистецтво</a>
+                        </div>
+                    </li>
+                </ul>
             </nav>
         </div>
 
@@ -57,4 +115,3 @@
 </div>
 </div>
 </div>
-
