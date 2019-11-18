@@ -259,7 +259,7 @@ dt {
     margin: auto;
     margin-top: 30px;
     margin-bottom: 80px;
-    color:#05D3EC;
+    color: #05D3EC;
 }
 
 .newsItem_img-center {
@@ -274,4 +274,49 @@ dt {
 .list-style-type-none {
     list-style-type: none
 }
- 
+
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-content: stretch; */
+    justify-content: start;
+}
+
+.partners_a {
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.partners_img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.facebook,
+.instagram,
+.telegram {
+    display: inline-block;
+    background: url('../img/icons/sotialNetworks.png') no-repeat;
+    overflow: hidden;
+    text-indent: -9999px;
+    text-align: left;
+}
+
+.facebook {
+    background-position: 0 0;
+    width: 32px;
+    height: 32px;
+}
+
+.instagram {
+    background-position: -32px 0;
+    width: 32px;
+    height: 32px;
+}
+
+.telegram {
+    background-position: -64px 0;
+    width: 32px;
+    height: 32px;
+}

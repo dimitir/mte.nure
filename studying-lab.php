@@ -2,7 +2,7 @@
 <html lang="en">
 <!-- Mirrored from mit.kture.kharkov.ua/lab.php by HTTrack Website Copier/3.x [XR&CO'2003], Sat, 18 Feb 2006 18:02:12 GMT -->
 <head>
-    <title class="lab">Лабораторії</title>
+    <title class="studying">Лабораторії</title>
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
